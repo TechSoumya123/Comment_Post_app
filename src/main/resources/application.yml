@@ -1,0 +1,14 @@
+server:
+      port: 8998
+
+spring:
+    application: 
+         name: Comment-Post-Application
+    datasource:  
+       url: jdbc:mysql://localhost:3306/clone
+       username: root
+       password: Tiger2143@+%
+    jpa:
+      show-sql: true
+      hibernate:
+           ddl-auto: create-drop
